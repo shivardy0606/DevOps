@@ -27,36 +27,61 @@ git config --global user.eamil "shivareddy0692.b@gmail.com"
 ```sh
 git config --list
 ```
-#create a directory named employee
+#Copy Repository in local
 ```sh
-mkdir mygit
+git clone https://github.com/shivardy0606/Project01.git
 ```
-#get inside mygit directory
+#get inside project01 directory
 ```sh
-cd mygit/
+cd Project01
+```
+#create a file inside of project01 directory
+```sh
+echo "# Project01" >> README.md
 ```
 #initialize git local repository
 ```sh
 git init
 ```
-#observe .git file is created in your local git repository which contains data and metadata of your local git repository
+#add file
 ```sh
-ls -a
-ls -a .git/
+git add README.md
+```
+#commit file
+```sh
+git commit -m "first commit"
 ```
 #check git status
 ```sh
 git status
 ```
+#create git branch 
+```sh
+git branch -M master or git checkout -b master
+```
+#add origin [fatal: remote origin already exists.]
+```sh
+git remote add origin https://github.com/shivardy0606/Project01.git 
+```
+#remove origin
+```sh
+git remote rm origin
+```
+#again add origin
+```sh 
+git remote add origin https://github.com/shivardy0606/Project01.git
+```
+#push code to origin master
+```sh
+git push -u origin master
+```
 #getting help from the command line
 ```sh
 git help
 ```
-
 #list all git commands and sub-commands
 ```sh
 git help -a
 ```
-
 #getting help for a particular git command
 git help <command> # for example, git help init will provide details of git init command
