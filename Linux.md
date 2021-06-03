@@ -20,7 +20,7 @@ groupadd devops
 ```sh
 usermod -a -G devops shiva
 ```
-#Verify group & password data  
+#Checking user details 
 ```sh
 vi /etc/passwd
 vi /etc/group
