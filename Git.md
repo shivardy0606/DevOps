@@ -28,7 +28,7 @@ git config --global user.eamil "shivareddy0692.b@gmail.com"
 ```sh
 git config --list
 ```
-#Copy Repository in local
+#get project01 from github
 ```sh
 git clone https://github.com/shivardy0606/Project01.git
 ```
@@ -36,7 +36,7 @@ git clone https://github.com/shivardy0606/Project01.git
 ```sh
 cd Project01
 ```
-#create a file inside of project01 directory
+#create a file inside project01 directory
 ```sh
 echo "# Project01" >> README.md
 ```
