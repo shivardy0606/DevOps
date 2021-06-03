@@ -13,7 +13,19 @@ sudo yum install git -y
 ```
 #Check git version
 ```sh
-git version
+git --version
+```
+#Set Username Configuration
+```sh
+git config --global user.name "shivardy0606"
+```
+#Set Email Configuration
+```sh
+git config --global user.eamil "shivareddy0692.b@gmail.com"
+```
+#Verify Username and Email Configurations
+```sh
+git config --list
 ```
 #create a directory named employee
 ```sh
