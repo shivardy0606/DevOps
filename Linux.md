@@ -8,11 +8,11 @@ yum update -y
 ```sh
 adduser shiva
 ```
-#Create password to user
+#Set password to user
 ```sh
 passwd shiva
 ```
-#Group add
+#Create group
 ```sh 
 groupadd devops
 ```
@@ -20,10 +20,10 @@ groupadd devops
 ```sh
 usermod -a -G devops shiva
 ```
-#Get group & password data  
+#Verify group & password data  
 ```sh
 vi /etc/passwd
-# vi /etc/group
+vi /etc/group
 ```
 #Provide root access to user
 ```sh
