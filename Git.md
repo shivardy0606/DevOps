@@ -1,6 +1,5 @@
 # Git installation on AWS EC2 instance:
 
-
 #Create an EC2 instance with Amazon Linux 2 with internet access
 #Connect to your instance using putty
 
