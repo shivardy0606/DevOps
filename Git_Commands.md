@@ -1,5 +1,5 @@
-## git Stash:
-
+- git log 
+- git diff 
 - git stash
 - git stash list
 - git stash drop <stash_id>
