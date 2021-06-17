@@ -215,9 +215,9 @@ git pull
 ```
 ### How to check remote branches that Git is tracking:
 This command shows the name of all remote branches that Git is tracking for the current repository:
-
+```sh
 git branch -r
-
+```
 ### How to fetch remote repo changes in Git:
 This command will download the changes from a remote repo but will not perform a merge on your local branch (as git pull does that instead).
 ```sh
