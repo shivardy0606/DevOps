@@ -38,8 +38,9 @@ You can install jenkins using the rpm or by setting up the repo. We will setup t
 Get latest version of jenkins from https://pkg.jenkins.io/redhat-stable/
 ```sh
 yum -y install wget
-wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo  
+rpm — import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
 yum -y install jenkins
 ```
 
