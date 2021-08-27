@@ -37,11 +37,11 @@ OpenJDK 64-Bit Server VM (build 25.151-b12, mixed mode)
 You can install jenkins using the rpm or by setting up the repo. We will setup the repo so that we can update it easily in future.
 Get latest version of jenkins from https://pkg.jenkins.io/redhat-stable/
 ```sh
-yum -y install wget
-wget -O /etc/yum.repos.d/jenkins.repo \
+1) yum -y install wget
+2) wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo  
-rpm — import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
-yum -y install jenkins
+3) rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+4) yum -y install jenkins
 ```
 
 ### Start Jenkins
